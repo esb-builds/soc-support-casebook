@@ -1,0 +1,10 @@
+event_id,timestamp_utc,user,application,result,authentication_detail,ip_address,reported_location,device_label,managed_device,network_label
+SIM-001,2026-09-28T12:55:00Z,alex@example.com,Microsoft 365,Success,MFA satisfied,192.0.2.10,"Maryland US",LAPTOP-01,Yes,Office network
+SIM-002,2026-09-28T17:30:00Z,alex@example.com,Microsoft 365,Success,MFA satisfied,198.51.100.20,"Virginia US",LAPTOP-01,Yes,Company VPN exit
+SIM-003,2026-09-29T12:48:00Z,alex@example.com,Microsoft 365,Success,MFA satisfied,192.0.2.10,"Maryland US",LAPTOP-01,Yes,Office network
+SIM-004,2026-09-29T13:02:00Z,alex@example.com,Microsoft 365,Failure,Incorrect password,203.0.113.40,"Netherlands",Unknown,Unknown,Unverified network
+SIM-005,2026-09-29T13:03:00Z,alex@example.com,Microsoft 365,Failure,Incorrect password,203.0.113.40,"Netherlands",Unknown,Unknown,Unverified network
+SIM-006,2026-09-29T13:04:00Z,alex@example.com,Microsoft 365,Failure,MFA challenge not completed,203.0.113.40,"Netherlands",Unknown,Unknown,Unverified network
+SIM-007,2026-09-29T13:06:00Z,alex@example.com,Microsoft 365,Success,MFA satisfied,203.0.113.40,"Netherlands",Unknown,Unknown,Unverified network
+SIM-008,2026-09-29T13:10:00Z,alex@example.com,Microsoft 365,Success,MFA satisfied,192.0.2.10,"Maryland US",LAPTOP-01,Yes,Office network
+SIM-009,2026-09-29T13:18:00Z,alex@example.com,Microsoft 365,Success,Previously satisfied MFA claim,203.0.113.40,"Netherlands",Unknown,Unknown,Unverified network
